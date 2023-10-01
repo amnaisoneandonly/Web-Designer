@@ -1,5 +1,5 @@
 h2 {
-    color: purple;
+    color: rgb(145, 199, 18);
     border: 1px solid black; 
 }
 
@@ -22,13 +22,24 @@ body{
     margin: 40px;
 }
 
-.eduTable td{
+.eduTable td,
+.eduTable th {
      padding: 10pxx 20px 10px 20px;
 }
 
-.eduTablecell{
-    padding: 10px  20px 10px 20px;
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
 }
+ 
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 
 
